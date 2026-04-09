@@ -120,3 +120,8 @@ javac -d out $(find src -name "*.java") && java -cp out MainApp
 ## 📝 Notes
 - Data is held **in-memory** (ArrayList). Restart clears all data.
 - To persist data, swap the `ArrayList` stores in the Service classes with JDBC + MySQL.
+
+---
+
+### 👥 Created By
+- Piyush Shah
